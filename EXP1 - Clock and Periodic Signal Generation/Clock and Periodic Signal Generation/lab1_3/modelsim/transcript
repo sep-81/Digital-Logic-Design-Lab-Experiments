@@ -1,0 +1,217 @@
+# Reading pref.tcl
+# OpenFile D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_3.mpf
+# Loading project final_3
+# Compile of BRGCKT.vo was successful.
+# Compile of ring_osil.v was successful.
+# Compile of final_tb3.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of BRGCKT.vo was successful.
+# Compile of ring_osil.v was successful.
+# Compile of final_tb3.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.FinalTB -L cycloneive_ver -L altera_ver -sdftyp /UUT=D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# vsim -gui work.FinalTB -L cycloneive_ver -L altera_ver -sdftyp "/UUT=D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo" 
+# Start time: 15:05:49 on Apr 21,2022
+# Loading work.FinalTB
+# Loading work.TFlioFlop
+# Loading work.MUX
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.ring_osil
+# Loading instances from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v Line: 11
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+add wave -position end  sim:/FinalTB/w
+add wave -position end  sim:/FinalTB/UxRXIF
+add wave -position end  sim:/FinalTB/UxRX
+add wave -position end  sim:/FinalTB/tf_set
+add wave -position end  sim:/FinalTB/ring_en
+add wave -position end  sim:/FinalTB/k
+add wave -position end  sim:/FinalTB/cnt_num
+add wave -position end  sim:/FinalTB/clk3
+add wave -position end  sim:/FinalTB/clk2
+add wave -position end  sim:/FinalTB/clk1
+add wave -position end  sim:/FinalTB/clk0
+add wave -position end  sim:/FinalTB/BRGout
+add wave -position end  sim:/FinalTB/BRGCLK
+add wave -position end  sim:/FinalTB/ABAUD
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(54)
+#    Time: 500568 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v line 54
+# Compile of BRGCKT.vo was successful.
+# Compile of ring_osil.v was successful.
+# Compile of final_tb3.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.TFlioFlop
+# Loading work.MUX
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.ring_osil
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v Line: 11
+# Loading timing data from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(54)
+#    Time: 500568 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v line 54
+# Compile of BRGCKT.vo was successful.
+# Compile of ring_osil.v was successful.
+# Compile of final_tb3.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.TFlioFlop
+# Loading work.MUX
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.ring_osil
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v Line: 11
+# Loading timing data from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(54)
+#    Time: 500560 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v line 54
+add wave -position end  sim:/FinalTB/UUT/\ABAUD~input /out_val
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v Line: 11
+# Loading timing data from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(54)
+#    Time: 500560 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v line 54
+# Compile of BRGCKT.vo was successful.
+# Compile of ring_osil.v was successful.
+# Compile of final_tb3.v was successful.
+# 3 compiles, 0 failed with no errors.
+quit -sim
+# End time: 16:46:47 on Apr 21,2022, Elapsed time: 1:40:58
+# Errors: 0, Warnings: 3
+vsim -gui -L cycloneive_ver -L altera_ver -sdftyp /UUT=D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo work.FinalTB
+# vsim -gui -L cycloneive_ver -L altera_ver -sdftyp "/UUT=D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo" work.FinalTB 
+# Start time: 16:48:34 on Apr 21,2022
+# Loading work.FinalTB
+# Loading work.TFlioFlop
+# Loading work.MUX
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.ring_osil
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v Line: 11
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/UUT File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v Line: 12
+# ** Warning: (vsim-3722) D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(12): [TFMPC] - Missing connection for port 'N'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+quit -sim
+# End time: 16:48:43 on Apr 21,2022, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 4
+# Compile of BRGCKT.vo was successful.
+# Compile of ring_osil.v was successful.
+# Compile of final_tb3.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L cycloneive_ver -L altera_ver -sdftyp /UUT=D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo work.FinalTB
+# vsim -gui -L cycloneive_ver -L altera_ver -sdftyp "/UUT=D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo" work.FinalTB 
+# Start time: 16:49:00 on Apr 21,2022
+# Loading work.FinalTB
+# Loading work.TFlioFlop
+# Loading work.MUX
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.ring_osil
+# Loading instances from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(69).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v Line: 11
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+add wave -position end  sim:/FinalTB/w
+add wave -position end  sim:/FinalTB/UxRXIF
+add wave -position end  sim:/FinalTB/UxRX
+add wave -position end  sim:/FinalTB/tf_set
+add wave -position end  sim:/FinalTB/ring_en
+add wave -position end  sim:/FinalTB/N
+add wave -position end  sim:/FinalTB/k
+add wave -position end  sim:/FinalTB/cnt_num
+add wave -position end  sim:/FinalTB/clk3
+add wave -position end  sim:/FinalTB/clk2
+add wave -position end  sim:/FinalTB/clk1
+add wave -position end  sim:/FinalTB/clk0
+add wave -position end  sim:/FinalTB/BRGout
+add wave -position end  sim:/FinalTB/BRGCLK
+add wave -position end  sim:/FinalTB/ABAUD
+run -all
+# ** Error: $hold( posedge clk &&& sloaddata:1473 ps, asdata:1606 ps, 157 ps );
+#    Time: 1606 ps  Iteration: 0  Process: /FinalTB/UUT/\inst1|data_path|counter|out[0] /#Setuphold# File: $MODEL_TECH/../altera/verilog/src/altera_primitives.v Line: 294
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v(55)
+#    Time: 500560 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v line 55
+quit -sim
+# End time: 16:50:29 on Apr 21,2022, Elapsed time: 0:01:29
+# Errors: 1, Warnings: 3

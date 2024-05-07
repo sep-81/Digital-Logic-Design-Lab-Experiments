@@ -1,0 +1,110 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 12.1 Build 177 11/07/2012 SJ Web Edition
+# Date created = 08:45:27  May 03, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		exp_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE Auto
+set_global_assignment -name TOP_LEVEL_ENTITY exp1
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:45:27  MAY 03, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE exp1.bdf
+set_global_assignment -name VERILOG_FILE ../verilog/mycont.v
+set_global_assignment -name VERILOG_FILE ../verilog/coutnter.v
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/register18.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/register.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/mux2to1.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/multiplier.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/LUTExp.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/exponential.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/Datapath.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/Counter.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/Controller.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "../Exp-codes/adder.sv"
+set_global_assignment -name MIF_FILE mif.mif
+set_global_assignment -name QIP_FILE romOut.qip
+set_global_assignment -name QIP_FILE fifoOut.qip
+set_global_assignment -name VERILOG_FILE hex_convert.v
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_L1 -to clk
+set_location_assignment PIN_E2 -to out5_2[6]
+set_location_assignment PIN_F1 -to out5_2[5]
+set_location_assignment PIN_F2 -to out5_2[4]
+set_location_assignment PIN_H1 -to out5_2[3]
+set_location_assignment PIN_H2 -to out5_2[2]
+set_location_assignment PIN_J1 -to out5_2[1]
+set_location_assignment PIN_J2 -to out5_2[0]
+set_location_assignment PIN_D1 -to out9_6[6]
+set_location_assignment PIN_D2 -to out9_6[5]
+set_location_assignment PIN_G3 -to out9_6[4]
+set_location_assignment PIN_H4 -to out9_6[3]
+set_location_assignment PIN_H5 -to out9_6[2]
+set_location_assignment PIN_H6 -to out9_6[1]
+set_location_assignment PIN_E1 -to out9_6[0]
+set_location_assignment PIN_D3 -to out13_10[6]
+set_location_assignment PIN_E4 -to out13_10[5]
+set_location_assignment PIN_E3 -to out13_10[4]
+set_location_assignment PIN_C1 -to out13_10[3]
+set_location_assignment PIN_C2 -to out13_10[2]
+set_location_assignment PIN_G6 -to out13_10[1]
+set_location_assignment PIN_G5 -to out13_10[0]
+set_location_assignment PIN_D4 -to out17_14[6]
+set_location_assignment PIN_F3 -to out17_14[5]
+set_location_assignment PIN_L8 -to out17_14[4]
+set_location_assignment PIN_J4 -to out17_14[3]
+set_location_assignment PIN_D6 -to out17_14[2]
+set_location_assignment PIN_D5 -to out17_14[1]
+set_location_assignment PIN_F4 -to out17_14[0]
+set_location_assignment PIN_L2 -to rst
+set_location_assignment PIN_M1 -to start
+set_location_assignment PIN_M2 -to read
+set_location_assignment PIN_V21 -to usedW[3]
+set_location_assignment PIN_V22 -to usedW[2]
+set_location_assignment PIN_U21 -to usedW[1]
+set_location_assignment PIN_U22 -to usedW[0]
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

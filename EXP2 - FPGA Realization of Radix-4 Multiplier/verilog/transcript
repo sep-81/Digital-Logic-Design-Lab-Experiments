@@ -1,0 +1,117 @@
+# Reading pref.tcl
+# OpenFile D:/ut/Term4/lab_logic/lab2/verilog/lab2.mpf
+# Loading project lab2
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 14:24:53 on May 14,2022
+# Loading work.tb
+# Loading work.booth
+# Loading work.DP
+# Loading work.Reg17
+# Loading work.Reg16
+# Loading work.RegP
+# Loading work.MUX8to1
+# Loading work.MUX8to1_1bit
+# Loading work.AddSub
+# Loading work.controller
+# Loading work.counter
+# Loading work.Hexdisplay
+# ** Warning: (vsim-3015) [PCDPC] - Port size (28) does not match connection size (32) for port 'out28'. The port definition is at: D:/ut/Term4/lab_logic/lab2/verilog/booth.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/UUT File: D:/ut/Term4/lab_logic/lab2/verilog/TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'displ'. The port definition is at: D:/ut/Term4/lab_logic/lab2/verilog/display.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/UUT/h1 File: D:/ut/Term4/lab_logic/lab2/verilog/booth.v Line: 19
+add wave -position end  sim:/tb/start
+add wave -position end  sim:/tb/rst
+add wave -position end  sim:/tb/ready
+add wave -position end  sim:/tb/out
+add wave -position end  sim:/tb/in
+add wave -position end  sim:/tb/get
+add wave -position end  sim:/tb/clk
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab2/verilog/TB.v(31)
+#    Time: 1455 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab2/verilog/TB.v line 31
+# Compile of booth.v was successful.
+# Compile of controler.v was successful.
+# Compile of counter.v was successful.
+# Compile of DP.v was successful.
+# Compile of modules.v was successful.
+# Compile of TB.v was successful.
+# Compile of display.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.booth
+# Loading work.DP
+# Loading work.Reg17
+# Loading work.Reg16
+# Loading work.RegP
+# Loading work.MUX8to1
+# Loading work.MUX8to1_1bit
+# Loading work.AddSub
+# Loading work.controller
+# Loading work.counter
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'out'. The port definition is at: D:/ut/Term4/lab_logic/lab2/verilog/booth.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/UUT File: D:/ut/Term4/lab_logic/lab2/verilog/TB.v Line: 8
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab2/verilog/TB.v(31)
+#    Time: 1455 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab2/verilog/TB.v line 31
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'out'. The port definition is at: D:/ut/Term4/lab_logic/lab2/verilog/booth.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/UUT File: D:/ut/Term4/lab_logic/lab2/verilog/TB.v Line: 8
+# Compile of booth.v was successful.
+# Compile of controler.v was successful.
+# Compile of counter.v was successful.
+# Compile of DP.v was successful.
+# Compile of modules.v was successful.
+# Compile of TB.v was successful.
+# Compile of display.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.booth
+# Loading work.DP
+# Loading work.Reg17
+# Loading work.Reg16
+# Loading work.RegP
+# Loading work.MUX8to1
+# Loading work.MUX8to1_1bit
+# Loading work.AddSub
+# Loading work.controller
+# Loading work.counter
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab2/verilog/TB.v(31)
+#    Time: 1455 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab2/verilog/TB.v line 31
+# Compile of booth.v was successful.
+# Compile of controler.v was successful.
+# Compile of counter.v was successful.
+# Compile of DP.v was successful.
+# Compile of modules.v was successful.
+# Compile of TB.v was successful.
+# Compile of display.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.booth
+# Loading work.DP
+# Loading work.Reg17
+# Loading work.Reg16
+# Loading work.RegP
+# Loading work.MUX8to1
+# Loading work.MUX8to1_1bit
+# Loading work.AddSub
+# Loading work.controller
+# Loading work.counter
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab2/verilog/TB.v(31)
+#    Time: 1455 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab2/verilog/TB.v line 31
+quit -sim
+# End time: 15:45:56 on May 14,2022, Elapsed time: 1:21:03
+# Errors: 0, Warnings: 1

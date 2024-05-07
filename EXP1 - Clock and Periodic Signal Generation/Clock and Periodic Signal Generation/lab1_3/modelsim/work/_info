@@ -1,0 +1,153 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ut/Term4/lab_logic/lab1/lab1_3/UART
+vBRGCKT
+Z0 !s110 1650543526
+!i10b 1
+!s100 @<cidP`jneLG0LSEC[?oB2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1TkaIZZj=a2Sf^POol]Dj0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim
+Z4 w1650543440
+Z5 8D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT.vo
+Z6 FD:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT.vo
+!i122 21
+L0 32 2260
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1650543526.000000
+Z9 !s107 D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@b@r@g@c@k@t
+vFinalTB
+Z13 !s110 1650543527
+!i10b 1
+!s100 QSOGWhQN?hT1gP=9RH?U;1
+R1
+IzMJ6N4UaBCOHccZFFB2;i2
+R2
+R3
+Z14 w1650543495
+Z15 8D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+Z16 FD:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+!i122 23
+L0 3 56
+R7
+r1
+!s85 0
+31
+Z17 !s108 1650543527.000000
+!s107 D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v|
+!i113 1
+R11
+R12
+n@final@t@b
+vhard_block
+R0
+!i10b 1
+!s100 fd6Z6_;4zhXTbd=ggRWJN2
+R1
+IzmNQ@?BQ[Zf?dggcdQz2f0
+R2
+R3
+R4
+R5
+R6
+!i122 21
+L0 2293 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vMUX
+R13
+!i10b 1
+!s100 e`LDG@fmAKQb>^3_Eo6f63
+R1
+IUj=[h3_VS5SR9V1=X=L6?0
+R2
+R3
+R14
+R15
+R16
+!i122 23
+L0 69 3
+R7
+r1
+!s85 0
+31
+R17
+Z19 !s107 D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v|
+R18
+!i113 1
+R11
+R12
+n@m@u@x
+vring_osil
+R0
+!i10b 1
+!s100 RJ8bgQfUjeo19f_JzII5d1
+R1
+IGRgDhEYh:?QQ6LQ6Y7Q3I1
+R2
+R3
+w1650457510
+8D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/ring_osil.v
+FD:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/ring_osil.v
+!i122 22
+L0 2 16
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/ring_osil.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/ring_osil.v|
+!i113 1
+R11
+R12
+vTFlioFlop
+R13
+!i10b 1
+!s100 Xz`mL7FeMhnP:NCTA7@NU2
+R1
+Io?=1Cf7R6?Wh>W=L@l3dJ2
+R2
+R3
+R14
+R15
+R16
+!i122 23
+L0 60 8
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+n@t@flio@flop

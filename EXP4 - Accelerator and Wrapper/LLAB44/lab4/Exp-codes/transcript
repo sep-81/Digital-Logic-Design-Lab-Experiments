@@ -1,0 +1,457 @@
+# Reading pref.tcl
+# OpenFile D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v
+# Loading project tb
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v failed with 1 errors.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 17:14:38 on May 28,2022
+# Loading work.tb
+# Loading sv_std.std
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (2) for port 'fracpart'. The port definition is at: D:/ut/Term4/lab_logic/lab4/Exp-codes/exponential.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT File: D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v Line: 8
+add wave -position insertpoint  \
+sim:/tb/x \
+sim:/tb/start \
+sim:/tb/rst \
+sim:/tb/intpart \
+sim:/tb/fracpart \
+sim:/tb/done \
+sim:/tb/clk
+run -all
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# Break key hit
+# Break in Module register18 at D:/ut/Term4/lab_logic/lab4/Exp-codes/register18.sv line 4
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (2) for port 'fracpart'. The port definition is at: D:/ut/Term4/lab_logic/lab4/Exp-codes/exponential.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT File: D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v Line: 8
+run -all
+# Break key hit
+# Break in Module register18 at D:/ut/Term4/lab_logic/lab4/Exp-codes/register18.sv line 4
+quit -sim
+# End time: 17:17:04 on May 28,2022, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 2
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 17:17:17 on May 28,2022
+# Loading work.tb
+# Loading sv_std.std
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (2) for port 'fracpart'. The port definition is at: D:/ut/Term4/lab_logic/lab4/Exp-codes/exponential.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT File: D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v Line: 8
+add wave -position insertpoint  \
+sim:/tb/x \
+sim:/tb/start \
+sim:/tb/rst \
+sim:/tb/intpart \
+sim:/tb/fracpart \
+sim:/tb/done \
+sim:/tb/clk
+run -all
+# Break key hit
+# Simulation stop requested.
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 17:19:32 on May 28,2022, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 2
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v failed with 1 errors.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 1 failed with 1 error.
+
+
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 17:47:34 on May 28,2022
+# Loading work.tb
+# Loading sv_std.std
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+add wave -position insertpoint  \
+sim:/tb/x \
+sim:/tb/start \
+sim:/tb/rst \
+sim:/tb/intpart \
+sim:/tb/fracpart \
+sim:/tb/done \
+sim:/tb/clk
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(16)
+#    Time: 2105 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 16
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(17)
+#    Time: 6125 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 17
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+restart -f
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.multiplier
+# Loading work.adder
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(17)
+#    Time: 6125 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 17
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(17)
+#    Time: 6135 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 17
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(17)
+#    Time: 6125 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 17
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Break in Module register18 at D:/ut/Term4/lab_logic/lab4/Exp-codes/register18.sv line 4
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# Break key hit
+vsim -gui work.tb
+# End time: 18:01:29 on May 28,2022, Elapsed time: 0:13:55
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb 
+# Start time: 18:01:29 on May 28,2022
+# Loading work.tb
+# Loading sv_std.std
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+add wave -position insertpoint  \
+sim:/tb/x \
+sim:/tb/start \
+sim:/tb/rst \
+sim:/tb/intpart \
+sim:/tb/fracpart \
+sim:/tb/done \
+sim:/tb/clk
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(18)
+#    Time: 6130 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 18
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(19)
+#    Time: 6135 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 19
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(19)
+#    Time: 6133 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 19
+# Compile of adder.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of Counter.sv was successful.
+# Compile of Datapath.sv was successful.
+# Compile of exponential.sv was successful.
+# Compile of expTb.v was successful with warnings.
+# Compile of LUTExp.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register18.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v(18)
+#    Time: 6128 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab4/Exp-codes/expTb.v line 18
+quit -sim
+# End time: 18:08:40 on May 28,2022, Elapsed time: 0:07:11
+# Errors: 0, Warnings: 1

@@ -1,0 +1,37 @@
+# Reading pref.tcl
+# OpenFile D:/ut/Term4/lab_logic/lab3/lab3_verilog/lab3.mpf
+# Loading project lab3
+# Error opening D:/ut/Term4/lab_logic/lab3/verilog/funGen.v
+# Path name 'D:/ut/Term4/lab_logic/lab3/verilog/funGen.v' doesn't exist.
+# Error opening D:/ut/Term4/lab_logic/lab3/verilog/tb.v
+# Path name 'D:/ut/Term4/lab_logic/lab3/verilog/tb.v' doesn't exist.
+# Compile of funGen.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 2 failed with no errors.
+# Error opening D:/ut/Term4/lab_logic/lab3/verilog/funGen.v
+# Path name 'D:/ut/Term4/lab_logic/lab3/verilog/funGen.v' doesn't exist.
+# Error opening D:/ut/Term4/lab_logic/lab3/verilog/tb.v
+# Path name 'D:/ut/Term4/lab_logic/lab3/verilog/tb.v' doesn't exist.
+# Error opening D:/ut/Term4/lab_logic/lab3/verilog/tb.v
+# Path name 'D:/ut/Term4/lab_logic/lab3/verilog/tb.v' doesn't exist.
+# Error opening D:/ut/Term4/lab_logic/lab3/verilog/tb.v
+# Path name 'D:/ut/Term4/lab_logic/lab3/verilog/tb.v' doesn't exist.
+# Error opening D:/ut/Term4/lab_logic/lab3/verilog/tb.v
+# Path name 'D:/ut/Term4/lab_logic/lab3/verilog/tb.v' doesn't exist.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 16:11:15 on May 28,2022
+# Loading work.tb
+# Loading work.funGen
+# Loading work.Counter
+# Loading work.triangle
+# Loading work.GenPulse
+# Loading work.ramb
+add wave -position insertpoint  \
+sim:/tb/out
+run -all
+# ** Note: $stop    : D:/ut/Term4/lab_logic/lab3/lab3_verilog/tb.v(22)
+#    Time: 93860 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/ut/Term4/lab_logic/lab3/lab3_verilog/tb.v line 22
+# End time: 16:35:22 on May 28,2022, Elapsed time: 0:24:07
+# Errors: 0, Warnings: 5

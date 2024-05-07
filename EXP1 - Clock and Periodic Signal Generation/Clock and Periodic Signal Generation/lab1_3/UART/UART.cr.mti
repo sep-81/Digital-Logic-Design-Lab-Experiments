@@ -1,0 +1,10 @@
+D:/ut/Term4/lab_logic/lab1/lab1_3/UART/DataPath.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab1/lab1_3/UART/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+-- Compiling module my_cnt
+-- Compiling module Reg
+
+Top level modules:
+	DataPath
+
+} {} {}}

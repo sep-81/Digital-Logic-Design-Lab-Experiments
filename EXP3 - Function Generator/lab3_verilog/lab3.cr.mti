@@ -1,0 +1,27 @@
+D:/ut/Term4/lab_logic/lab3/lab3_verilog/tb.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab3/lab3_verilog/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/ut/Term4/lab_logic/lab3/lab3_verilog/funGen.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab3/lab3_verilog/funGen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module funGen
+-- Compiling module GenPulse
+-- Compiling module Counter
+-- Compiling module triangle
+-- Compiling module ramb
+-- Compiling module RomCounter
+-- Compiling module mux_2to1
+-- Compiling module Amp
+-- Compiling module Dac
+
+Top level modules:
+	funGen
+	RomCounter
+	mux_2to1
+	Amp
+	Dac
+
+} {} {}}

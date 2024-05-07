@@ -1,0 +1,25 @@
+D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT.vo {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/BRGCKT.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BRGCKT
+-- Compiling module hard_block
+
+Top level modules:
+	BRGCKT
+
+} {} {}} D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/final_tb3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FinalTB
+-- Compiling module TFlioFlop
+-- Compiling module MUX
+
+Top level modules:
+	FinalTB
+
+} {} {}} D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/ring_osil.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab1/lab1_3/simulation/modelsim/ring_osil.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ring_osil
+
+Top level modules:
+	ring_osil
+
+} {} {}}

@@ -1,0 +1,8 @@
+{C:/Users/DLD lab 5/Desktop/lab4/lab4/simulation/modelsim/ExpAcc_TB.sv} {1 {vlog -work work -sv {C:/Users/DLD lab 5/Desktop/lab4/lab4/simulation/modelsim/ExpAcc_TB.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module expTB
+
+Top level modules:
+	expTB
+
+} {} {}}

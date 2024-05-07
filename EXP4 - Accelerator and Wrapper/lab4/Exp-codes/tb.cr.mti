@@ -1,0 +1,72 @@
+D:/ut/Term4/lab_logic/lab4/Exp-codes/register.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/register18.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/register18.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register18
+
+Top level modules:
+	register18
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/LUTExp.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/LUTExp.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LUT
+
+Top level modules:
+	LUT
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/multiplier.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/multiplier.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/exponential.sv {1 {vlog -work work -sv -stats=none {D:\ut\Term4\lab_logic\lab4\Exp-codes\exponential.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module exponential
+
+Top level modules:
+	exponential
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/Datapath.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/Datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/mux2to1.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/mux2to1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/Counter.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/Counter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/Controller.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/ut/Term4/lab_logic/lab4/Exp-codes/adder.sv {1 {vlog -work work -sv -stats=none D:/ut/Term4/lab_logic/lab4/Exp-codes/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}}

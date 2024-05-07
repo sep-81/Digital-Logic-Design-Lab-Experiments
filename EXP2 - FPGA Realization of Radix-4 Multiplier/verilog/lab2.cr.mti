@@ -1,0 +1,60 @@
+D:/ut/Term4/lab_logic/lab2/verilog/TB.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab2/verilog/TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/ut/Term4/lab_logic/lab2/verilog/display.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab2/verilog/display.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Hexdisplay
+
+Top level modules:
+	Hexdisplay
+
+} {} {}} D:/ut/Term4/lab_logic/lab2/verilog/booth.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab2/verilog/booth.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module booth
+
+Top level modules:
+	booth
+
+} {} {}} D:/ut/Term4/lab_logic/lab2/verilog/counter.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab2/verilog/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} D:/ut/Term4/lab_logic/lab2/verilog/controler.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab2/verilog/controler.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/ut/Term4/lab_logic/lab2/verilog/DP.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab2/verilog/DP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DP
+
+Top level modules:
+	DP
+
+} {} {}} D:/ut/Term4/lab_logic/lab2/verilog/modules.v {1 {vlog -work work -stats=none D:/ut/Term4/lab_logic/lab2/verilog/modules.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Reg16
+-- Compiling module Reg17
+-- Compiling module RegP
+-- Compiling module AddSub
+-- Compiling module MUX8to1
+-- Compiling module MUX8to1_1bit
+
+Top level modules:
+	Reg16
+	Reg17
+	RegP
+	AddSub
+	MUX8to1
+	MUX8to1_1bit
+
+} {} {}}
